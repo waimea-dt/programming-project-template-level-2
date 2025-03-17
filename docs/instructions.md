@@ -39,15 +39,20 @@ You will be asked to explain the workings of any/all of your code to assess whet
 The game that you program should:
 
 1. Be for **two (or more) players**
+
 2. Be **turn-based**, players taking turns to perform actions / play moves
+
 3. Be **non-trivial to play**, i.e. there should be an element of difficulty / challenge for players
-4. Provide clear and simple **instructions** on how to play the game (either at the start, or as play progresses)
-5. Provide an **interface that is well-designed and easy-to-use**. The interface should:
+
+4. Have a **clear outcome**, e.g. a winner based on score / survival / etc
+
+5. Provide clear and simple **instructions** on how to play the game (either at the start, or as play progresses)
+
+6. Provide an **interface that is well-designed and easy-to-use**. The interface should:
    - Show the status of the game as it progresses
    - Prompt players for input as needed 
    - Provide feedback on result of player actions / moves 
    - Give an overall summary at the end-of-play (winner, points, etc.)
-- Have a **clear outcome**, e.g. a winner based on score / survival / etc
 
 
 ## Achievement Criteria
@@ -58,7 +63,7 @@ The game that you program should:
 | **Merit**      | Use advanced programming techniques to develop an **informed** computer program. |
 | **Excellence** | Use advanced programming techniques to develop an **refined** computer program.  |
 
-To help you keep track of how successfully you are meeting the criteria, use the [Checklist document](checklist.md)
+*To help you keep track of how successfully you are meeting the criteria, use the [Checklist document](checklist.md)*
 
 ### Achieve Criteria
 
@@ -116,7 +121,8 @@ Use advanced programming techniques to develop a refined computer program means 
 
 At the end of this project you will need to submit the following:
 
-1. **Program Source Code** - a copy of your program file(s)
-2. **Evidence of Testing** - a template has been provided for you to use for this
+1. **Program Source Code** - a copy of your [program source](../src) file(s)
 
+2. **Runnable Program** - an executable file (e.g. a JAR)
 
+3. **Evidence of Testing** - [planning](test-plan.md) and [evidence](test-results.md) template have been provided for you to use for this
