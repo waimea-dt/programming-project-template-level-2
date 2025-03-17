@@ -104,8 +104,8 @@ Use advanced programming techniques to develop a refined computer program means 
 1. Your program should be **well-structured** and a **logical** response to the task
 
 2. You must make your program **flexible**, including:
+   - Using **constants** and **derived values** in place of literal values
    - Using conditions, branching, loops and functions **effectively**
-   - Using **constants** and **derived values** in place of literals
 
 3. You must make your program **robust**, correctly handling **invalid** (unexpected) data values
 
