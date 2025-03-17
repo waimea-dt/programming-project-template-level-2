@@ -9,14 +9,14 @@ This checklist can be used to gauge progress towards different levels of success
 ### Program Functionality
 
 The game functions correctly and meets the specification:
-- [ ] The game is playable
-- [ ] The instructions for the game are available in-game
-- [ ] Two players can play
-- [ ] Player names are used to identify each player
-- [ ] Players take turns to play
-- [ ] Players provides input data to the game (e.g. moves to make)
-- [ ] The current state of the game is shown after each play
-- [ ] A winner is detected correctly
+- [ ] The game is **playable**
+- [ ] The **instructions** for the game are available in-game
+- [ ] **Two players** can play
+- [ ] Player **names** are used to identify each player
+- [ ] Players **take turns** to play
+- [ ] Players provides **input data** to the game (e.g. moves to make)
+- [ ] The **current status** of the game is shown after each play
+- [ ] A **winner is detected** correctly
 
 ### Program Code
 
@@ -58,9 +58,11 @@ The program has been tested and there is documented evidence that:
 ### Program Code
 
 The program stores data using variables, where:
-- [ ] They are **scoped appropriately** (global or local to a function)
+- [ ] Variable **names are well-chosen** (relating to their purpose)
+- [ ] Variable names **begin with lowercase**
+- [ ] Naming is consistent, either **camelCase or snake_case**
+- [ ] Variables are **scoped appropriately** (global or local to a function)
 - [ ] **Global** variables are only used if **genuinely needed**
-- [ ] Variable **names are well-chosen** (relating to their purpose) 
 
 The program uses functions appropriately, where:
 - [ ] At least one uses **parameters** to pass data into it
@@ -69,8 +71,9 @@ The program uses functions appropriately, where:
 
 ### Program Documentation
 
-The program code comments:
-- [ ] Accurately describe the **function and behaviour** of the code:
+The program code is well-commented:
+- [ ] **JavaDoc Block comments** are used at the top of each **file** and **function**
+- [ ] Comments accurately describe the **function and behaviour** of the code:
   - [ ] Defining the **purpose** of functions / key blocks of code
   - [ ] Explaining the **reason** (the '**why**') of key parts of the code
   - [ ] Defining function **parameters** and/or **return values**
@@ -98,6 +101,7 @@ Program flexibility and maintainability is aided by good program structure:
 - [ ] Procedures are **efficient** (minimal iterations, etc.)
 - [ ] **Minimal duplication of code** (instead using loops, or having multiple calls to a single function)
 - [ ] Functions are **well-chosen and logical**, with a clearly defined purpose
+- [ ] The functions chosen represent a **logical decomposition** of the task
 
 ### Program Documentation
 
