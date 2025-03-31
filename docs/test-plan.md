@@ -10,17 +10,17 @@ Terminology:
 
 ---
 
-## Example Test Name
+## Check that coins are placed correctly
 
-Example test description. Example test description. Example test description. Example test description. Example test description. Example test description.
+I need to make sure that the coins are placed on the board, 5 silver and 1 gold
 
 ### Test Data To Use
 
-Details of test data and reasons for selection. Details of test data and reasons for selection. Details of test data and reasons for selection.
+I will run the game multiple times
 
 ### Expected Test Result
 
-Statement detailing what should happen. Statement detailing what should happen. Statement detailing what should happen. Statement detailing what should happen. 
+I should see six coins on the board. None should overlap. None should be on square 1.
 
 ---
 
